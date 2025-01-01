@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<style>
+
+body{
+	margin:-2px;
+}
+#header{
+	border:1px solid #f2f2f2;
+	height:111.6px;
+	position:fixed;
+	background-color: #fff;
+	z-index: 1000;
+}
+#header > #firstHeader > #banner{
+	border:1px solid #f2f2f2;
+	height:35px;
+	background:url('https://img.shixon.com/Campain/_TopCampain1143219316.jpg') no-repeat 50% 50%;
+	background-size:1537px;
+}
+#header > #firstHeader > #socialMedia{
+	border-right:1px solid #f2f2f2;
+	border-bottom:1px solid #f2f2f2;
+	margin:auto;
+	width:1530px;
+	height:32.8px;
+}
+#header > #firstHeader > #socialMedia > .items{
+	position:relative;
+	float:right;
+	color:#888;
+}
+#header > #firstHeader > #socialMedia > .inv{
+	width:180px;
+	height:100%;
+}
+#header > #firstHeader > #socialMedia > .it1{
+	border-right:1px solid #f2f2f2;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/HomeIcon.png") no-repeat 50% 50%;
+	background-size:12px;
+}
+#header > #firstHeader > #socialMedia > .it2{
+	border-left:1px solid #f2f2f2;
+	width:125px;
+	height:100%;
+	background:url("img/CartIcon.png") no-repeat 85% 50%;
+	background-size:15px;
+	font-size:15px;
+	text-align:center;
+	line-height:35px;
+}
+#header > #firstHeader > #socialMedia > .it2 > div{
+	width:412px;
+	height:59.13px;
+	background-color:#fdf9ff;
+	border-top:3px solid #8e44ad;
+	border-right:1px solid #DEDEDE;
+	border-left:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	
+	position:absolute;
+	top:35px;
+	visibility:hidden;
+	opacity:0;
+	direction: rtl;
+	right:0px;
+}
+#header > #firstHeader > #socialMedia > .it2:hover > div{
+	position:absolute;
+	top:32.8px;
+	visibility:visible;
+	opacity:1;
+	transition:0.3s;
+}
+#header > #firstHeader > #socialMedia > .it2 > div > div{
+	border:1px solid #8e44ad;
+	width:385px;
+	height:45px;
+	margin: 4.5px auto;
+	line-height:45px;
+	border-radius:3px;
+	color:#8e44ad;
+}
+#header > #firstHeader > #socialMedia > .it3{
+	border-left:1px solid #f2f2f2;
+	width:180px;
+	height:100%;
+	background:url("img/person.png") no-repeat 75% 50%;
+	background-size:18px;
+	font-size:15px;
+	text-align:center;
+	line-height:35px;
+}
+#header > #firstHeader > #socialMedia > .it4{
+	border-left:1px solid #f2f2f2;
+	width:115px;
+	height:100%;
+	background:url("img/tick.png") no-repeat 100% 50%;
+	background-size:18px;
+	font-size:15px;
+	text-align:center;
+	line-height:35px;
+}
+#header > #firstHeader > #socialMedia > .it5{
+	border-left:1px solid #f2f2f2;
+	width:145px;
+	height:100%;
+	background:url("img/phone.png") no-repeat 95% 50%;
+	background-size:18px;
+	font-size:15px;
+	text-align:center;
+	line-height:35px;
+}
+#header > #firstHeader > #socialMedia > .it6{
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/search.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it7{
+	border-left:1px solid #f2f2f2;
+	width:270px;
+	height:100%;
+}
+#header > #firstHeader > #socialMedia > .it7 > input{
+	border:0 none;
+	outline:none;
+	width:270px;
+	height:25px;
+	font-family:tahoma;
+	color:#888;
+	text-align: right;
+}
+#header > #firstHeader > #socialMedia > .it8{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/aparat.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it8:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/aparath.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it9{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/telegram.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it9:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/telegramh.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it10{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/instagram.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it10:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/instagramh.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it11{
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/facebook.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it11:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/facebookh.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it12{
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/twitter.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it12:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/twitterh.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it13{
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/rubika.png") no-repeat 50% 50%;
+	background-size:18px;
+}
+#header > #firstHeader > #socialMedia > .it13:hover{
+	transition:0.4s;
+	border-left:1px solid #f2f2f2;
+	width:40px;
+	height:100%;
+	background:url("img/rubikah.png") no-repeat 50% 50%;
+	background-color:#8E44AD;
+	background-size:18px;
+}
+#header > #secondHeader{
+	height:44.1px;
+	width:1165px;
+	margin:auto;
+}
+#header > #secondHeader > .items2{
+	float:right;
+	text-align:center;
+	font-size:17px;
+	line-height:40px;
+}
+#header > #secondHeader > .it2-1{
+	transition:0.2s;
+	width:43.24px;
+	height:100%;
+	color:#888;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-1:hover{
+	width:43.24px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-1 > .m1{
+	width:1155px;
+	height:389.43px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	opacity:0;
+	visibility:hidden;
+	direction: rtl;
+	right:185px;
+}
+#header > #secondHeader > .it2-1:hover > .m1{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-2{
+	width:52.78px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-2 > .m2{
+	width:1155px;
+	height:363.89px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-2:hover > .m2{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-2:hover{
+	width:52.78px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-3{
+	width:56.13px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-3 > .m3{
+	width:1155px;
+	height:244.01px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-3:hover > .m3{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-3:hover{
+	width:56.13px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-4{
+	width:47.55px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-4 > .m4{
+	width:1155px;
+	height:410.75px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-4:hover > .m4{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-4:hover{
+	width:47.55px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-5{
+	width:88.78px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-5 > .m5{
+	width:1155px;
+	height:315.96px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-5:hover > .m5{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-5:hover{
+	width:88.78px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-6{
+	width:90.56px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-6 > .m6{
+	width:1155px;
+	height:402.4px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-6:hover > .m6{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-6:hover{
+	width:90.56px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-7{
+	width:74px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-7 > .m7{
+	width:1155px;
+	height:268.08px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-7:hover > .m7{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-7:hover{
+	width:74px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-8{
+	width:120.86px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-8 > .m8{
+	width:1155px;
+	height:363.89px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-8:hover > .m8{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-8:hover{
+	width:120.86px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-9{
+	width:84.43px;
+	height:100%;
+	color:#888;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-9 > .m9{
+	width:1155px;
+	height:204.2px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-9:hover > .m9{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-9:hover{
+	width:84.43px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-10{
+	width:92.19px;
+	height:100%;
+	color:#a0f;
+	font-weight: bold;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-10:hover{
+	width:92.19px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-11{
+	width:80.15px;
+	height:100%;
+	color:#a0f;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-11:hover{
+	width:80.15px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-12{
+	width:61.1px;
+	height:100%;
+	color:#a0f;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-12 > .m10{
+	width:1155px;
+	height:389.43px;
+	border-top:2px solid #8E44AD;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color:#fdf9ff;
+	
+	position:absolute;
+	top:120px;
+	right:183px;
+	opacity:0;
+	visibility:hidden;
+}
+#header > #secondHeader > .it2-12:hover > .m10{
+	position:absolute;
+	top:111px;
+	opacity:1;
+	visibility:visible;
+	transition:0.2s;
+}
+#header > #secondHeader > .it2-12:hover{
+	width:61.1px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-13{
+	width:101.71px;
+	height:100%;
+	color:#e040fb;
+	transition:0.2s;
+	background:url("img/triangle.png") no-repeat 50% 100%;
+	background-size:10px;
+}
+#header > #secondHeader > .it2-13:hover{
+	width:101.71px;
+	height:100%;
+	color:#888;
+	background-color:#8E44AD;
+	color:#fff;
+	transition:0.2s;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #8E44AD;
+	border-right:1px solid #8E44AD;
+	border-top:1px solid #8E44AD;
+	border-radius:5px;
+}
+#header > #secondHeader > .it2-14{
+	width:160px;
+	height:100%;
+	background:url("img/logo.png") no-repeat 0% 40%;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline1{
+	width:1200px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline1 > #zananeimage{
+	width:268.35px;
+	height:204.41px;
+	background: url("img/zanane.jpg");
+	margin-right: 850px;
+	margin-top: 20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline1 > .line1{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: #8e44ad !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 15px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline2{
+	width:800px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline2 > .line2{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: -13px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline3{
+	width:800px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline3 > .line3{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline4{
+	width:800px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline4 > .line4{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: -13px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline5{
+	width:700px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline5 > .line5{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline6{
+	width:700px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline6 > .line6{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: -13px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline7{
+	width:700px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline7 > .line7{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline8{
+	width:700px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline8 > .line8{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: -13px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline9{
+	width:200px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline9 > .line9{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline10{
+	width:200px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline10 > .line10{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: -13px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline11{
+	width:200px;
+	height:20px;
+}
+#header > #secondHeader > .it2-1 > .m1 > #zananeline11 > .line11{
+	float:right;
+	z-index: auto;
+	border-bottom: 1px solid #ccc;
+	color: gray !important;
+	margin: 0px 7px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#content{
+	height:1500px;
+	border:1px solid #f2f2f2;
+	background-color: white;
+}
+#content > #slider{
+	width:1519.2px;
+	height:400px;
+	margin-top:115px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#content > #slider > #gal{
+	width: 400%;
+	height:100%;
+	transition: 0.3s;
+	position:relative;
+	left:0;
+}
+#content > #slider > #gal > .slide{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+#content > #slider > #gal > .pic1 > img{
+	width: 100%;
+	height: 100%;
+}
+#content > #slider > #gal > .pic2 > img{
+	width: 100%;
+	height: 100%;
+}
+#content > #slider > #gal > .pic3 > img{
+	width: 100%;
+	height: 100%;
+}
+#content > #slider > #gal > .pic4 > img{
+	width: 100%;
+	height: 100%;
+}
+#content > #slider > #left{
+	background:url("img/left.png") no-repeat;
+	background-size:35px;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+	
+	position:absolute;
+	top:285px;
+	right:1476px;
+}
+#content > #slider > #left:hover{
+	background: url("img/lefth.png");
+	background-size:35px;
+	transition: 0.5s;
+}
+#content > #slider > #right{
+	background:url("img/right.png") no-repeat;
+	background-size:35px;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+	
+	position:absolute;
+	top:285px;
+	right:10px;
+}
+#content > #slider > #right:hover{
+	transition: 0.5s;
+	background: url("img/righth.png");
+	background-size:35px;
+}
+#content > #circlebutton{
+	width: 100px;
+	height: 20px;
+	margin: -20px auto;
+	position: relative;
+	z-index: 900;
+}
+#content > #circlebutton > .button{
+	float: left;
+}
+#content > #circlebutton > .b1{
+	width: 10px;
+	height: 10px;
+	padding: 5 5px;
+	background-color: #fff;
+	margin-top: -15px;
+	margin-left: 10px;
+	border-radius: 100%;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b1:hover{
+	background-color: #8e44ad;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b2{
+	width: 10px;
+	height: 10px;
+	padding: 5 5px;
+	background-color: #fff;
+	margin-top: -15px;
+	margin-left: 30px;
+	border-radius: 100%;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b2:hover{
+	background-color: #8e44ad;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b3{
+	width: 10px;
+	height: 10px;
+	padding: 5 5px;
+	background-color: #fff;
+	margin-top: -15px;
+	margin-left: 50px;
+	border-radius: 100%;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b3:hover{
+	background-color: #8e44ad;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b4{
+	width: 10px;
+	height: 10px;
+	padding: 5 5px;
+	background-color: #fff;
+	margin-top: -15px;
+	margin-left: 70px;
+	border-radius: 100%;
+	transition: 0.5s;
+}
+#content > #circlebutton > .b4:hover{
+	background-color: #8e44ad;
+	transition: 0.5s;
+}
+#content > #advantages{
+	background: url("img/advantages.png") no-repeat 50% 50%;
+	background-size: 1100px;
+	width: 1125px;
+	height: 76.88px;
+	margin: 20px auto;
+}
+#content > #suggestion{
+	width: 1519.2px;
+	height: 670px;
+	border-top:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background-color: #fdf9ff;
+	margin: 60px auto;
+}
+#content > #suggestion > #bootvamanto{
+	margin: 40px 150px;
+}
+#content > #suggestion > #bootvamanto > .bm{
+	float: left;
+}
+#content > #suggestion > #bootvamanto > .boot{
+	margin: 0 10px;
+	background: url("img/boot.jpg") 50% 50%;
+	width: 770px;
+	height: 277.91px;
+	direction: rtl;
+	overflow: hidden;
+	background-size: 880px;
+	transition: 0.5s;
+}
+#content > #suggestion > #bootvamanto > .boot > .a1{
+	transform: rotate(45deg) translateY(-470px) translateX(5px);
+	width: 900px;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+	transition: 0.8s;
+}
+#content > #suggestion > #bootvamanto > .boot >  .alphachannel{
+	width: 770px;
+	height: 277.91px;
+	margin-top: -300px;
+	transition: 0.3s;
+}
+#content > #suggestion > #bootvamanto > .boot:hover >  .alphachannel{
+	background-color: rgba(98, 98, 98, 0.4);
+	transition: 0.3s;
+}
+#content > #suggestion > #bootvamanto > .boot:hover > .a1{
+	transform: rotate(45deg) translateY(325px) translateX(-85px);
+	transition: 0.8s;
+}
+#content > #suggestion > #bootvamanto > .boot:hover{
+	background-position: 50% 50%;
+	background-size: 700px;
+	transition: 0.5s;
+}
+#content > #suggestion > #bootvamanto > .manto{
+	background: url("img/manto.jpg") 50% 50%;
+	width: 385px;
+	height: 277.5px;
+	direction: rtl;
+	overflow: hidden;
+	background-size: 420px;
+	transition: 0.5s;
+}
+#content > #suggestion > #bootvamanto > .manto > .a3{
+	transform: rotate(45deg) translateY(-500px) translateX(5px);
+	width: 900px;
+	height: 200px;
+	background: rgba(255, 255, 255, 0.4);
+	transition: 0.8s;
+}
+#content > #suggestion > #bootvamanto > .manto >  .alphachannel{
+	width: 385px;
+	height: 277.91px;
+	margin-top: -200px;
+	transition: 0.3s;
+}
+#content > #suggestion > #bootvamanto > .manto:hover >  .alphachannel{
+	background-color: rgba(98, 98, 98, 0.4);
+	transition: 0.3s;
+}
+#content > #suggestion > #bootvamanto > .manto:hover > .a3{
+	transform: rotate(45deg) translateY(400px) translateX(5px);
+	transition: 0.8s;
+}
+#content > #suggestion > #bootvamanto > .manto:hover{
+	background-position: 50% 50%;
+	background-size: 370px;
+	transition: 0.5s;
+}
+#content > #suggestion > #katoonivapirahan{
+	margin-right: 195px;
+}
+#content > #suggestion > #katoonivapirahan > .kp{
+	float: right;
+}
+#content > #suggestion > #katoonivapirahan > .katooni{
+	margin-top: 40px;
+	margin-right: 10px;
+	background: url("img/katooni.jpg") 50% 50%;
+	width: 385px;
+	height: 277.5px;
+	direction: rtl;
+	overflow: hidden;
+	background-size: 420px;
+	transition: 0.5s;
+}
+#content > #suggestion > #katoonivapirahan > .katooni > .a4{
+	transform: rotate(45deg) translateY(-500px) translateX(5px);
+	width: 900px;
+	height: 200px;
+	background: rgba(255, 255, 255, 0.4);
+	transition: 0.8s;
+}
+#content > #suggestion > #katoonivapirahan > .katooni >  .alphachannel{
+	width: 385px;
+	height: 277.91px;
+	margin-top: -200px;
+	transition: 0.3s;
+}
+#content > #suggestion > #katoonivapirahan > .katooni:hover >  .alphachannel{
+	background-color: rgba(98, 98, 98, 0.4);
+	transition: 0.3s;
+}
+#content > #suggestion > #katoonivapirahan > .katooni:hover > .a4{
+	transform: rotate(45deg) translateY(400px) translateX(5px);
+	transition: 0.8s;
+}
+#content > #suggestion > #katoonivapirahan > .katooni:hover{
+	background-position: 50% 50%;
+	background-size: 370px;
+	transition: 0.5s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan{
+	margin-top: 40px;
+	background: url("img/pirahan.jpg") 50% 50%;
+	width: 770px;
+	height: 277.91px;
+	direction: rtl;
+	overflow: hidden;
+	background-size: 880px;
+	transition: 0.5s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan > .a2{
+	transform: rotate(45deg) translateY(-470px) translateX(5px);
+	width: 900px;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.4);
+	transition: 0.8s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan >  .alphachannel{
+	width: 770px;
+	height: 277.91px;
+	margin-top: -300px;
+	transition: 0.3s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan:hover >  .alphachannel{
+	background-color: rgba(98, 98, 98, 0.4);
+	transition: 0.3s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan:hover > .a2{
+	transform: rotate(45deg) translateY(325px) translateX(-85px);
+	transition: 0.8s;
+}
+#content > #suggestion > #katoonivapirahan > .pirahan:hover{
+	background-position: 50% 50%;
+	background-size: 700px;
+	transition: 0.5s;
+}
+#banner2{
+	width: 1519.2px;
+	height: 334.74px;
+	overflow: hidden;
+}
+#banner2 > #alphachannel{
+	background-color: rgba(24, 24, 24, 0.6);
+	width: 1519.2px;
+	height: 334.74px;
+	margin-top: -360px;
+}
+#banner2 > #discountpic{
+	width: 500px;
+	height: 200px;
+	margin:40px auto;
+	background: url("img/discount-register.png") no-repeat 50% 50%;
+	position: relative;
+	z-index: 100;
+}
+#banner2 > #discountdiscription{
+	width: 500px;
+	height: 20px;
+	margin: -90px auto;
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+}
+#banner2 > #discountbutton{
+	width: 150px;
+	height: 40px;
+	background-color: rgb(0, 204, 173);
+	text-align: center;
+	border-radius: 30px;
+	position: relative;
+	z-index: 100;
+	margin: 100px auto;
+	line-height: 40px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#banner2 > #banner{
+	background: url("https://www.shixon.com/images/textback.jpg");
+	width: 1519.2px;
+	height: 800px;
+	margin-top: -90px;
+	position: fixed;
+	top: 150px;
+	z-index: -100;
+}
+#footer{
+	height:300px;
+	background-color: #18181a;
+	direction: rtl;
+}
+#footer > #column1{
+	padding-top: 37px;
+	padding-right: 150px;
+}
+#footer > #column1 > .c1{
+	padding-top: 2px;
+	text-align: right;
+	color: #bbb;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 100px;
+}
+#footer > #column1 > .c1:hover{
+	transition: 0.3s;
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column1 > .t1{
+	width: 200px;
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column2{
+	margin-top: -160px;
+	padding-right: 350px;
+}
+#footer > #column2 > .c2{
+	padding-top: 2px;
+	text-align: right;
+	color: #bbb;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 180px;
+}
+#footer > #column2 > .c2:hover{
+	transition: 0.3s;
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column2 > .t2{
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column2 > .t3{
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column3{
+	padding-right: 550px;
+	margin-top: -170px;
+}
+#footer > #column3 > .c3{
+	width: 200px;
+	height: 60px;
+}
+#footer > #column3 > .img1{
+	background: url("img/footer-1.png") no-repeat;
+}
+#footer > #column3 > .img2{
+	background: url("img/footer-3.png") no-repeat;
+}
+#footer > #column3 > .img3{
+	background: url("img/footer-5.png") no-repeat;
+}
+#footer > #column4{
+	padding-right: 750px;
+	margin-top: -175px;
+}
+#footer > #column4 > .c4{
+	width: 200px;
+	height: 60px;
+}
+#footer > #column4 > .img4{
+	background: url("img/footer-2.png") no-repeat;
+}
+#footer > #column4 > .img5{
+	background: url("img/footer-4.png") no-repeat;
+}
+#footer > #column4 > .img6{
+	background: url("img/footer-6.png") no-repeat;
+}
+#footer > #column5{
+	padding-right: 1000px;
+	margin-top: -180px;
+}
+#footer > #column5 > .c5{
+	padding-top: 4px;
+	text-align: right;
+	color: #bbb;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	transition: 0.3s;
+	cursor: pointer;
+	width: 200px;
+}
+#footer > #column5 > .t4{
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column5 > .t5{
+	color: #fff;
+	font-size: 13px;
+	padding-right: 3px;
+}
+#footer > #column5 > .socialmedia{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#footer > #column5 > #instagram{
+	background: url("img/icons8-instagram-50.png") no-repeat 50% 50%;
+	background-size: 20px;
+}
+#footer > #column5 > #rubika{
+	background: url("img/icons8-rubik-64.png") no-repeat 50% 50%;
+	background-size: 20px;
+}
+#footer > #column5 > #telegram{
+	background: url("img/icons8-telegram-50.png") no-repeat 50% 50%;
+	background-size: 20px;
+}
+#footer > #column5 > #aparat{
+	background: url("img/icons8-aparat-48.png") no-repeat 50% 50%;
+	background-size: 20px;
+}
+#footer > #column5 > #instagram:hover{
+	background-position-x: 10%;
+}
+#footer > #column5 > #rubika:hover{
+	background-position-x: 10%;
+}
+#footer > #column5 > #telegram:hover{
+	background-position-x: 10%;
+}
+#footer > #column5 > #aparat:hover{
+	background-position-x: 10%;
+}
+#footer > #namadelectronic{
+	background: url("img/logo\ \(1\).png") no-repeat 50% 50%;
+	width: 200px;
+	height: 200px;
+	padding-right: 2500px;
+	margin-top: -120px;
+}
+#copyright{
+	width: 1519.2px;
+	height: 70px;
+	background-color: black;
+	margin-top: -70px;
+}
+#copyright > #up{
+	width: 300px;
+	height: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	margin:auto;
+	padding-top: 15px;
+	text-align: center;
+	color: #ccc;
+}
+#copyright > #down{
+	width: 300px;
+	height: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	margin:auto;
+	padding-top: 6px;
+	text-align: center;
+	color: #ccc;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+	<div id="firstHeader">
+		<div id="banner"></div>
+		<div id="socialMedia">
+			<div class="items inv"></div>
+			<div class="items it1"></div>
+			<div class="items it2">سبد خرید <div> <div> سبد خرید شما خالی است</div> </div> </div>
+			<div class="items it3">ورود/ثبت نام</div>
+			<div class="items it4">پیگیری سفارش</div>
+			<div class="items it5">0902 108 60 62</div>
+			<div class="items it6"></div>
+			<div class="items it7" >
+				<input placeholder="... جستجو">
+			</div>
+			<div class="items it8"></div>
+			<div class="items it9"></div>
+			<div class="items it10"></div>
+			<div class="items it11"></div>
+			<div class="items it12"></div>
+			<div class="items it13"></div>
+		</div>
+	</div>
+	<div id="secondHeader">
+		<div class="items2 it2-1">زنانه<div class="submenu m1">
+			<div id="zananeline1">
+				<div class="line1">لباس</div>
+				<div class="line1">کفش</div>
+				<div class="line1">کیف</div>
+				<div class="line1">زیور آلات</div>
+				<div class="line1">ساعت</div>
+				<div id="zananeimage"></div>	
+			</div>
+			<div id="zananeline2">
+				<div class="line2">مانتو</div>
+				<div class="line2">کفش پاشنه بلند</div>
+				<div class="line2">کیف کوله</div>
+				<div class="line2">انگشتر</div>
+				<div class="line2">عینک</div>
+			</div>
+			<div id="zananeline3">
+				<div class="line3">بافت زاکت و پلیور</div>
+				<div class="line3">بوت و نیم بوت</div>
+				<div class="line3">کیف پول</div>
+				<div class="line3">ست و نیم ست</div>
+				<div class="line3">اکسسوری</div>
+			</div>
+			<div id="zananeline4">
+				<div class="line4">پالتو کاپشن و بارانی</div>
+				<div class="line4">کفش ورزشی</div>
+				<div class="line4">کیف دستی</div>
+				<div class="line4">گوشواره</div>
+			</div>
+			<div id="zananeline5">
+				<div class="line5">شال و روسری</div>
+				<div class="line5">کفش تخت</div>
+				<div class="line5">کیف دوشی</div>
+				<div class="line5">النگو و دستبند</div>
+			</div>
+			<div id="zananeline6">
+				<div class="line6">شلوار و اسپورت</div>
+				<div class="line6">صندل</div>
+				<div class="line6">کیف پاسپورتی</div>
+				<div class="line6">گردنبند</div>
+			</div>
+			<div id="zananeline7">
+				<div class="line7">ست زنانه</div>
+				<div class="line7">دمپایی و روفرشی</div>
+				<div class="line7">ساک ورزشی</div>
+				<div class="line7">پابند</div>
+			</div>
+			<div id="zananeline8">
+				<div class="line8">شال گردن کلاه و دستکش</div>
+			</div>
+			<div id="zananeline9">
+				<div class="line9">تونیک تاپ شونیز و بلوز</div>
+			</div>
+			<div id="zananeline10">
+				<div class="line10">دامن و شلوارک</div>
+			</div>
+			<div id="zananeline11">
+				<div class="line11">لباس  زیر</div>
+			</div>
+		</div>
+	</div>
+		<div class="items2 it2-2">مردانه<div class="submenu m2"></div></div>
+		<div class="items2 it2-3">بچگانه<div class="submenu m3"></div></div>
+		<div class="items2 it2-4">لباس<div class="submenu m4"></div></div>
+		<div class="items2 it2-5">کیف و کفش<div class="submenu m5"></div></div>
+		<div class="items2 it2-6">لوازم کاربردی<div class="submenu m6"></div></div>
+		<div class="items2 it2-7">اکسسوری<div class="submenu m7"></div></div>
+		<div class="items2 it2-8">آرایشی و بهداشتی<div class="submenu m8"></div></div>
+		<div class="items2 it2-9">لوازم خانگی<div class="submenu m9"></div></div>
+		<div class="items2 it2-10">زیرقیمت بازار</div>
+		<div class="items2 it2-11">تک سایزها</div>
+		<div class="items2 it2-12">ست ها<div class="submenu m10"></div></div>
+		<div class="items2 it2-13">مجله شیکسون</div>
+		<div class="items2 it2-14"></div>
+	</div>
+</div>
+
+<div id="content">
+	<div id="slider">
+		<div id="gal">
+			<div class="slide pic1"> 
+				<img src="https://img.shixon.com/Campain/_Campain1143337596.jpg">
+			</div>
+			<div class="slide pic2">
+				<img src="https://img.shixon.com/slide/1402-07-04-13-02-37.jpg">
+			</div>
+			<div class="slide pic3">
+				<img src="https://img.shixon.com/slide/1402-07-04-13-01-27.jpg">
+			</div>
+			<div class="slide pic4">
+				<img src="https://img.shixon.com/slide/1402-07-04-13-00-13.jpg">
+			</div>
+		</div>
+		<div id="left"></div>
+		<div id="right"></div>
+	</div>
+	<div id="circlebutton">
+		<div id="b1" class="button b1"></div>
+		<div id="b2" class="button b2"></div>
+		<div id="b3" class="button b3"></div>
+		<div id="b4" class="button b4"></div>
+	</div>
+	<div id="advantages"></div>
+	<div id="suggestion">
+		<div id="bootvamanto">
+			<div class="bm boot">
+				<div class="animation a1"></div>
+				<div class="alphachannel"></div>
+			</div>
+			<div class="bm manto">
+				<div class="animation a3"></div>
+				<div class="alphachannel"></div>
+			</div>
+		</div>
+		<div id="katoonivapirahan">
+			<div class="kp pirahan">
+				<div class="animation a2"></div>
+				<div class="alphachannel"></div>
+			</div>
+			<div class="kp katooni">
+				<div class="animation a4"></div>
+				<div class="alphachannel"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="banner2">
+	<div id="discountpic"></div>
+	<div id="discountdiscription">!با ثبت نام در شیکسون 20 هزار تومان کد تخفیف دریافت کنید</div>
+	<div id="discountbutton">دریافت کد تخفیف</div>
+	<div id="banner"></div>
+	<div id="alphachannel"></div>
+</div>
+<div id="footer">
+	<div id="column1">
+		<div class="c1 t1">محصولات شیکسون</div>
+		<div class="c1">انواع لباس مردانه</div>
+		<div class="c1">کفش مردانه</div>
+		<div class="c1">لوازم جانبی موبایل</div>
+		<div class="c1">لوازم جانبی خودرو</div>
+		<div class="c1">لوازم خانگی برقی</div>
+		<div class="c1">لوازم آشپزخانه</div>
+		<div class="c1">کیف و کفش</div>
+		<div class="c1">عطر و ادکلن</div>
+	</div>
+	<div id="column2">
+		<div class="c2 t2">با شیکسون</div>
+		<div class="c2">درباره شیکسون</div>
+		<div class="c2">مجله شیکسون</div>
+		<div class="c2">کالای خود را در شیکسون بفروشید</div>
+		<div class="c2">همکاری در فروش شیکسون</div>
+		<div class="c2 t3">خدمات مشتریان</div>
+		<div class="c2">قوانین بازگرداندن کالا</div>
+		<div class="c2">پرسش های متداول</div>
+		<div class="c2">تماس با شیکسون</div>
+	</div>
+	<div id="column3">
+		<div class="c3 img1"></div>
+		<div class="c3 img2"></div>
+		<div class="c3 img3"></div>
+	</div>
+	<div id="column4">
+		<div class="c4 img4"></div>
+		<div class="c4 img5"></div>
+		<div class="c4 img6"></div>
+	</div>
+	<div id="column5">
+		<div class="c5 t4">دفتر مرکزی فروشگاه آنلاین شیکسون</div>
+		<div class="c5">62 60 108 0902</div>
+		<div class="c5 t5">آدرس ایمیل</div>
+		<div class="c5">support@shixon.com</div>
+		<div id="instagram" class="c5 socialmedia"></div>
+		<div id="rubika" class="c5 socialmedia"></div>
+		<div id="telegram" class="c5 socialmedia"></div>
+		<div id="aparat" class="c5 socialmedia"></div>
+	</div>
+	<div id="namadelectronic"></div>
+</div>
+<div id="copyright">
+	<div id="up">کلیه حقوق این وب سایت متعلق به گروه شیکسون می‌باشد</div>
+	<div id="down">توزیع و ارسال از طریق سیستم ارسال و توزیع پایگان می‌باشد</div>
+</div>
+
+<script>
+pos = 0;
+right.onclick = function(){
+	if(pos > -300) {
+		pos = pos -100;
+		gal.style.left = pos + "%";
+	}
+	else if(pos <= -300) {
+		pos = 0;
+		gal.style.left = pos + "%";
+	}
+}
+left.onclick = function(){
+	if(pos < 0) {
+		pos = pos +100;
+		gal.style.left = pos + "%";
+	}
+	else if(pos >= 0){
+		pos = -300;
+		gal.style.left = pos + "%";
+	}
+}
+b1.onclick = function(){
+	pos = 0;
+	gal.style.left = pos + "%";
+}
+b2.onclick = function(){
+	pos = -100;
+	gal.style.left = pos + "%";
+}
+b3.onclick = function(){
+	pos = -200;
+	gal.style.left = pos + "%";
+}
+b4.onclick = function(){
+	pos = -300;
+	gal.style.left = pos + "%";
+}
+</script>
+
+</body>
+</html>
